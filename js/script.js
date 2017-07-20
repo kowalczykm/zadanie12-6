@@ -20,6 +20,6 @@ function showCountriesList(resp) {
       $('<li>').text(item.name).appendTo(countriesList);
       $('<li>').text(item.capital).appendTo(countriesList);
       $flagImage = $('<img>').attr('src', item.flag);
-      $('li').append($flagImage).appendTo(countriesList);
+      $('<li>').append($flagImage).appendTo(countriesList);
     });
 }
